@@ -1,0 +1,126 @@
+ .testimonial_container{
+    width:40% !important;
+    height: 25rem;
+    padding-bottom:4rem;
+}
+.client_avatar{
+    width:4.3rem;
+    overflow:hidden;
+    aspect-ratio:1/1;
+    border-radius:50%;
+    margin:0 auto 1rem;
+    border:0.2rem solid var(--color-primary-variant);
+}
+.client__img{
+    width:4rem;
+    height:4rem;
+    border-radius:50%;
+
+}
+.swiper-pagination{
+    margin-top:4rem;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background:var(--color-primary);
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.client__reviews{
+    color:var(--color-light);
+    font-weight:300;
+    display:block;
+    width:50%;
+    margin:0.8rem auto 0;
+}
+
+.testimonial{
+    text-align:center;
+    padding:2rem;
+    background:var(--color-bg-variant);
+    width:30%;
+    border-radius:1rem;
+    user-select:none;
+}
+
+.client_name{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:900px) {
+    
+    .testimonial-div{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+        width: 100%;
+    }
+    .client__review{
+        color:var(--color-light);
+        font-weight:300;
+        display:block;
+        width:100%;
+       margin:0.8rem auto 0;
+    }
+    
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+        background:var(--color-primary);
+        height:1.5rem;
+        width:1.5rem;
+    }
+    .client__img{
+        width:7.5rem;
+        height:7.5rem;
+        border-radius:50%;
+    
+    }
+    .client__reviews{
+        font-size:1.5rem;
+    }
+    .client_name{
+        font-size:2rem;
+    }
+    .client_avatar{
+        width:8rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+     .testimonial_container{
+        width:95% !important;
+        height: 24rem;
+    }
+    .client_name{
+        margin-bottom: 0;
+    }
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+        background:var(--color-primary);
+        height:1.2rem;
+        width:1.2rem;
+    }
+    
+    .client__img{
+        width:4.5rem;
+        height:4.5rem;
+        border-radius:50%;
+    
+    }
+    .client__review{
+        margin-top:0;
+    }
+    .client_name{
+        font-size:1.3rem;
+    }
+    .client_avatar{
+        width:4.5rem;
+    }
+    .parent-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial{
+        height: 22rem;
+    }
+
+    
+}
