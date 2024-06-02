@@ -9,9 +9,13 @@
   text-decoration:none;
 }
 :root{
-  --color-bg: #1f1f38;
+  --color-bgs: #0c0c18;
+
+  --color-bg: #18182b;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+
+  --color-primary: #45a6eb;
+
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-white:#fff;
   --color-light:rgba(255,255,255,0.6);

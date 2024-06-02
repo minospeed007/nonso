@@ -7,6 +7,7 @@ import {FaGithub} from 'react-icons/fa'
 const Footer=()=>{
     return(<>
     <footer >
+        <div className='footer-div'>
 <a href="#" className='footer__logo'>Nonso</a> 
 <ul className='permalinks'>
     <li><a href='#'></a></li>
@@ -27,6 +28,7 @@ const Footer=()=>{
     </div> 
     <div className='footer__copyright'>
         <small>&copy; Nonso Okeke. All rights reserved.</small>
+    </div>
     </div>
  </footer>
     </>)

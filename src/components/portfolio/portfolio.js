@@ -2,10 +2,13 @@ import './portfolio.css';
 import cryptokong from '../../assests/crypto_pic.avif';
 import Afia from '../../assests/e-commerce.jpg';
 import Momobook from '../../assests/momobook.png';
+import { Fade } from "react-awesome-reveal";
+
 
 const Portfolio = () => {
     return (
         <>
+        <Fade direction='left'>
             <section id='portfolio'>
                 <h5>My Recent Works</h5>
                 <h2>Portfolio</h2>
@@ -78,6 +81,7 @@ const Portfolio = () => {
                     
                 </div>
             </section>
+            </Fade>
         </>
     );
 };

@@ -4,7 +4,11 @@ footer{
     text-align:center;
     font-size:0.9rem;
     margin-top:7rem;
+    width:100% ;
+    margin-bottom:0;
+    position: absolute;
 }
+
 .footer__copyright{
     margin-bottom:4rem;
     color:var(--color-bg);

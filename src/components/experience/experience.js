@@ -1,7 +1,10 @@
 import {BsPatchCheckFill} from 'react-icons/bs'
 import './experience.css'
+import { Fade } from "react-awesome-reveal";
+
 const Experience=()=>{
     return(<>
+        <Fade direction='up'>
     <section  id='experience'>
         
         <h5>My Skills</h5>
@@ -122,6 +125,7 @@ const Experience=()=>{
         </div>
 
     </section>
+    </Fade>
     </>)
 }
 export default Experience

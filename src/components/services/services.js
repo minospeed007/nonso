@@ -1,11 +1,14 @@
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
+import { Fade } from "react-awesome-reveal";
+
 const Services=()=>{
     return(<>
     <section id='services' >
        <h5>What I Offer</h5>
        <h2>Services</h2>
        <div className='container services__container'>
+         <Fade direction='left'>
          <div className='service-div'>
         <article className='service'>
          <div className='service__head'>
@@ -32,6 +35,8 @@ const Services=()=>{
          </ul>
         </article>
         </div>
+        </Fade>
+        <Fade direction='up'>
         <div className='service-div'>
 
         <article className='service'>
@@ -59,6 +64,8 @@ const Services=()=>{
          </ul>
         </article>
         </div>
+        </Fade>
+        <Fade direction='right'>
         <div className='service-div'>
 
         <article className='service'>
@@ -86,6 +93,7 @@ const Services=()=>{
          </ul>
         </article>
         </div>
+        </Fade>
        </div>
 
     </section>
