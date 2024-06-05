@@ -21,11 +21,12 @@ const Experience=()=>{
          <div className='experience__content-div'>
         <div className='experience__content'>
         <article className='experience__details'>
+        
+                
             <BsPatchCheckFill className='experience__details-icon'/>
-            <div>
             <h4 className='text-lights'>HTML</h4>
-            <small className='text-light'></small>
-            </div>
+            
+           
         </article>
         <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>
@@ -83,6 +84,7 @@ const Experience=()=>{
                     </div>
                 </article>
                 <article className="experience__details">
+                
                     <BsPatchCheckFill className="experience__details-icon"/>
                     <div>
                     <h4 className='text-header'>MYSQL</h4>

@@ -1,4 +1,4 @@
-import CV from '../../assests/CV.docx'
+import CV from '../../assests/Dominic_cv.pdf';
 
 const CTA = ()=>{
     return(<>

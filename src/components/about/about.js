@@ -42,13 +42,16 @@ const About = () => {
             <div className="about__p">
             <div className="about__p-div">
               <p className="about__ps">
-                Do you have a brilliant idea waiting to be brought to life? Let's join forces and make it happen!
+                Do you have a brilliant idea waiting to be brought to life? Let's make it happen!
                 Together, we'll turn your dream into a reality, leaving you as a satisfied and fulfilled client.
               </p>
-            </div>
+              <div className='btn-div'>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+           <p> Let's Talk</p>
           </a>
+          </div>
+            </div>
+            
         </div>
         </div>
       </div>
