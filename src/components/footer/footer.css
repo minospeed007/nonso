@@ -55,7 +55,19 @@ footer a{
         flex-direction:column;
         gap:1.5rem;
     }
+    footer{
+        width:100vw !important;
+    }
     .footer__socials{
         margin-bottom:2.6rem;
+    }
+    .footer{
+        background:var(--color-primary);
+        padding:3rem 0;
+        text-align:center;
+        font-size:0.9rem;
+        margin-top:7rem;
+        margin-bottom:0;
+        margin-right: 0;
     }
 }

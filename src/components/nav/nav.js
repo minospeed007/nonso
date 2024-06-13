@@ -9,7 +9,9 @@ const Nav=()=>{
     const [activeNav, setActiveNav]=useState('#')
     
     return(<>
+     <div className='nav-div'>
     <nav>
+       
         
  <a href='#' className={activeNav ==='#' ? 'active': ''} onClick={()=>setActiveNav('#')}>
  <AiOutlineHome className="nav-icon"/></a>
@@ -25,8 +27,9 @@ className={activeNav ==='#services' ? 'active': ''}>
             <RiServiceLine  className="nav-icon"/></a>
 <a href='#contact' onClick={()=>setActiveNav('#contact')} className={activeNav==='#contact' ? 'active': ''}>
 <BiMessageSquareDetail className="nav-icon"/></a>
-
     </nav>
+    </div>
+
     </>)
 }
 export default Nav

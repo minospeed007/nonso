@@ -16,6 +16,12 @@ nav{
     border-radius:3rem;
     backdrop-filter:blur(15px);
 }
+.nav-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .nav-icon{
     font-size: 2rem ;
 }
@@ -72,6 +78,14 @@ nav a.active{
         background:transparent;
         padding:0.3rem;
         
+    }
+    .nav-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        width:100%;
+
     }
     
 }

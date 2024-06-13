@@ -72,7 +72,7 @@ const Testimonial=()=>{
             " I was skeptical about working with Nonso for my e-commerce website.
              However, I decided to give him a chance, 
              and I was truly blown away by the exceptional quality of the job he delivered.
-              The website's design and performance are top-notch.
+              The website's design and performance are top-notch".
             </p>
             </div></div>
             </SwiperSlide>

@@ -14,7 +14,7 @@
 .about__ps{
     color: var(--color-light);
 }
-.about__me{
+.about__image{
     width:100%;
     aspect-ratio: 1/1;
     border-radius:2rem;
@@ -122,7 +122,7 @@ flex-direction: column;
    width:100%;
     }
     .about__image{
-        width:60%;
+        width:50%;
         margin:2rem auto 4rem;
     }
     .about__icon{
@@ -135,22 +135,22 @@ flex-direction: column;
         min-width: 25rem;
         margin-bottom: 1rem;
     }
+   
     .about__p{
         display: flex;
         width: 100%;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
     }
     .about__p-div > p{
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
     }
 @media screen and (max-width:750px) {
-    .about__me{
-        width: 65%;
-        margin: 0 auto 3rem;
+    .about__p-div > p{
+        font-size: 1rem;
     }
-    
     
     .about__content p{
         margin: 1.5rem 0;
@@ -182,13 +182,17 @@ flex-direction: column;
     h2{
         font-size:1.5rem;
     }
-    .about__card > h5{
-        font-size:.9rem ;
-    }
     
-    .about__card{
-        max-height: 20rem !important;
-        min-width: 20rem !important;
+    
+    .about__card {
+        flex: none;
+        min-width: 13rem !important;
+        max-width: 13rem !important; 
+        min-height: 8rem;
+        padding: 1rem; 
+        margin-bottom: 1rem; 
+        box-sizing: border-box;
+        text-align: center; 
     }
     .about__cards{
 display:flex;
@@ -216,10 +220,10 @@ margin-top: 1rem;
         font-size: 2.5rem;
     }
     .about__card h5{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     .about__card small{
-        font-size:1.5rem;
+        font-size:1.1rem;
         color:var(--color-light);
     }
 }
