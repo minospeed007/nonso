@@ -37,6 +37,7 @@ body{
   background-color: var(--color-bg);
   color:var(--color-white);
   line-height: 1.7;
+  overflow:hidden;
 }
   nav a{
       padding:0.9rem;
