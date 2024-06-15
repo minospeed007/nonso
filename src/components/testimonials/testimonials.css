@@ -1,7 +1,13 @@
- .testimonial_container{
+.testimonial_container{
     width:40% !important;
     height: 25rem;
     padding-bottom:4rem;
+}
+.client__review p{
+    color: rgb(206, 186, 149);
+}
+h4{
+    color: rgb(206, 186, 149);
 }
 .client_avatar{
     width:4.3rem;
