@@ -28,7 +28,7 @@ const Testimonial=()=>{
 
                 </div>
 
-                <h4 className='client_name'>Chinwendu</h4>
+                <h4 className='client_name'>Chiwendu</h4>
                 <div className='testimonial-div'>
 
                 <div className='client__review' >
